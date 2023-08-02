@@ -6,4 +6,4 @@
 4. Volatility Ratio method
 
 ### Fixed Fractional method
-$$ Contract_number = int(\frac{Total_Asset * f\%}{Stop_Loss}) $$
+$$  Contract number= int(\frac{Total Asset * f\%}{Stop Loss}) $$
