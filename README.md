@@ -7,6 +7,7 @@
    $$  Contract Number= int(\frac{Total Asset * f\%}{Stop Loss}) $$
 
 2. Fixed Ratio method
+
    if 现有资金 < 初始资金: 
 
 $$ 合约数 = 1 $$
