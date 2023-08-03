@@ -8,16 +8,17 @@
 
 2. Fixed Ratio method
 
-   if 现有资金 < 初始资金: 
+   If 现有资金 < 初始资金:
 
 $$ 合约数 = 1 $$
 
-   if 现有资金 > 初始资金:
+   If 现有资金 > 初始资金:
 
 $$ 合约数 = int(\frac{1 + \sqrt{(1 + 8 * \frac{总资金 - 初始资金}{\Delta})}}{2}) $$
    
-3. Volatility Ratio method
-   $$ 合约数 = int(\frac{Vol\% * 总资金}{ATR(period) * Vp}) $$
+4. Volatility Ratio method
+   
+$$ 合约数 = int(\frac{Vol\% * 总资金}{ATR(period) * Vp}) $$
 
 
 ### More advanced techniques
