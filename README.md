@@ -26,6 +26,10 @@ $$ 合约数 = int(\frac{Vol\% * 总资金}{ATR(period) * Vp}) $$
 2. 保守-激进资金组合
 3. Equity curve trading
 
+### Market Timing
+
+1. Moving Average Crossovers strategy
+   
 ### Monte-Carlo Simulations (rate of return & withdrawal distributions)
 
 
