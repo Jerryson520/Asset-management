@@ -18,4 +18,4 @@ if 现有资金 > 初始资金:
 $$ 合约数 = int(\frac{1 + \sqrt{(1 + 8 * \frac{总资金 - 初始资金}{\Delta})}}{2}) $$
 
 ### Volatility Ratio method
-$$ 合约数 = int(\frac{Vol\% * 资金}{ATR(period) * Vp}) $$
+$$ 合约数 = int(\frac{Vol\% * 总资金}{ATR(period) * Vp}) $$
