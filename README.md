@@ -7,18 +7,18 @@
    $$  Contract Number= int(\frac{Total Asset * f\%}{Stop Loss}) $$
 
 2. Fixed Ratio method
-
-   If 现有资金 < 初始资金:
-
-$$ 合约数 = 1 $$
-
-   If 现有资金 > 初始资金:
-
-$$ 合约数 = int(\frac{1 + \sqrt{(1 + 8 * \frac{总资金 - 初始资金}{\Delta})}}{2}) $$
    
-4. Volatility Ratio method
+   If Current Asset < Original Asset:
+
+$$ Contract Number = 1 $$
+
+   If Current Asset > Original Asset:
+
+$$ Contract Number = int(\frac{1 + \sqrt{(1 + 8 * \frac{Current Asset - Original Assset}{\Delta})}}{2}) $$
    
-$$ 合约数 = int(\frac{Vol\% * 总资金}{ATR(period) * Vp}) $$
+3. Volatility Ratio method
+   
+$$ Contract Number = int(\frac{Vol\% * 总资金}{ATR(period) * Vp}) $$
 
 
 ### More advanced techniques
