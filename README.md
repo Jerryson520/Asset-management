@@ -1,8 +1,9 @@
-![image](https://github.com/Jerryson520/Asset-management/assets/67813088/d669f108-d43a-4cee-b163-c1502b0b8864)![image](https://github.com/Jerryson520/Asset-management/assets/67813088/0d218537-a861-42dd-b578-a1903cf6ca5c)# Asset-management
+# Asset-management
 
 ## For single trade category:
 ### Basic strategy
 1. Fixed Fractional method
+   
    $$  Contract Number= int(\frac{Total Asset * f\%}{Stop Loss}) $$
 
 2. Fixed Ratio method
